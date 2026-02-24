@@ -1,0 +1,20 @@
+# Demo file for GitCustodian scanning
+# This file contains mock patterns that simulate critical issues.
+# No real secrets are included.
+
+# Simulated AWS Access Key
+AWS_ACCESS_KEY_ID = "AKIAFAKEKEY1234567890"
+
+# Simulated AWS Secret Key
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFakeSecretKey1234567890"
+
+# Simulated Private Key
+-----BEGIN PRIVATE KEY-----
+FAKEPRIVATEKEYDATA1234567890
+-----END PRIVATE KEY-----
+
+# Simulated Password
+password = "SuperSecretPassword123!"
+
+# Simulated Token
+api_token = "ghp_FAKEPAT1234567890abcdef"
